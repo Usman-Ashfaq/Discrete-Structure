@@ -1,20 +1,20 @@
-﻿//#include <iostream>
-//#include <string>
-//#include <stack>
-//#include <iomanip>
-//using namespace std;
-//const int MAX_VARS = 10;
-//bool evaluate(char op, bool a, bool b) 
-//{
-//    switch (op) 
-//    {
+﻿#include <iostream>
+#include <string>
+#include <stack>
+#include <iomanip>
+using namespace std;
+const int MAX_VARS = 10;
+bool evaluate(char op, bool a, bool b) 
+{
+    switch (op) 
+    {
 //    case '&': return a && b;          // AND
 //    case '|': return a || b;          // OR
 //    case '>': return (!a || b);       // Implication
 //    case '=': return (a == b);        // Biconditional
 //    default: return false;
-//    }
-//}
+   }
+}
 //void printStep(const string& expr, bool result) 
 //{
 //    cout << expr << " = " << (result ? "1" : "0") << endl;
@@ -52,7 +52,7 @@
 //        }
 //    }
 //    return stack[top];
-//}
+}
 //int prec(char c) 
 //{
 //    if (c == '!') return 3;           // NOT
